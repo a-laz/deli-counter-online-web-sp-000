@@ -2,5 +2,14 @@
 def line(katz_deli)
   if katz_deli.size == 0
     puts "The line is currently empty."
+  else
+    count = 1
+    deli_line = []
+    katz_deli.each do |person|
+      person = "#{count}. #{person}"
+      deli_line.push(person)
+      count += 1
+    end
+    puts "The line is currently: #{deli_line.join(" ")}"
   end
 end
