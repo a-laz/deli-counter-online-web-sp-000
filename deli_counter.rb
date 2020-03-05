@@ -13,3 +13,7 @@ def line(katz_deli)
     puts "The line is currently: #{deli_line.join(" ")}"
   end
 end
+
+def take_a_number(katz_deli, person)
+  
+end
