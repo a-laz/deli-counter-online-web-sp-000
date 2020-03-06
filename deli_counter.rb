@@ -19,3 +19,7 @@ def take_a_number(katz_deli, person)
   line_size = katz_deli.size
   puts "Welcome, #{person}. You are number #{line_size} in line."
 end
+
+def now_serving(katz_deli)
+  line_size = katz_deli.size
+end
