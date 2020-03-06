@@ -15,6 +15,6 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, person)
+  katz_deli.push(person)
   line_size = katz_deli.size
-
 end
